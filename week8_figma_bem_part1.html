@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="normalize.css" type="text/css">
-    <link rel="stylesheet" href="style_week8_figma_bem_part1.css" type="text/css">
+    <link rel="stylesheet" href="style_week8_figma_bem.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Figma_bem_part1</title>
 </head>
 <body>
-   <header class="header_container">
-      <img class="icon" src="image/icon.png" alt="Icon`">
-      <img class="name" src="image/sign.png" alt="normalize">
-<button type="button" class="button_violett">Корзина <img src="image/box.png" alt="Back"></button>
+   <header class="container container__header">
+      <div id="icon"><img class="icon" src="image/icon.png" alt="Icon"></div>
+      <div id="name"><img class="name" src="image/sign.png" alt="Name"></div>
+<div id="button"><button type="button" class="button button__header">КОРЗИНА <img src="image/box.png" alt="box"></button></div>
    </header> 
-   <main class="main_container">
-<section class="container_left">
-<p class="article_title">Виртуальная реальность без проводов</p>
-<p>Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
-<button type="button" class="button_violett">Купить <img src="image/card.png" alt="card"></button>
+   <main class="container container__main">
+<section class="container container__left">
+<p class="article_title article__titlepart1">Виртуальная реальность без проводов</p>
+<p class="article_text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
+<div class="#">
+<button type="button" class="button button__sale">КУПИТЬ <img src="image/card.png" alt="card"></button>
+</div>
 </section>
-<section class="container_right">
+<section class="container container__right">
    <img class="imgback" src="image/pic_back.png" alt="Back">
    </section>
    </main>
-   <footer class="footer_container">
+   <footer class="container container__footer container__footer__violett">
    <p>Возможности</p>
    <p>Где купить</p>
    <p>Доставка</p>
    <p>Помощь</p>
-
    </footer>
 </body>
 </html>
